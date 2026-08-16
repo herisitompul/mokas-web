@@ -115,7 +115,7 @@ export default function AboutUs() {
             </div>
 
             <p className={styles.description}>
-              Kami memahami bahwa membeli motor bekas membutuhkan rasa percaya yang tinggi. Oleh karena itu, di **Sitompul Motor Bekas**, kami selalu mengedepankan kejujuran kondisi unit, kelengkapan berkas, dan pelayanan prima. Setiap unit motor yang kami tawarkan telah melalui inspeksi menyeluruh untuk menjamin keamanan dan kenyamanan berkendara Anda.
+              Kami memahami bahwa membeli motor bekas membutuhkan rasa percaya yang tinggi. Oleh karena itu, di <strong>Sitompul Motor Bekas</strong>, kami selalu mengedepankan kejujuran kondisi unit, kelengkapan berkas, dan pelayanan prima. Setiap unit motor yang kami tawarkan telah melalui inspeksi menyeluruh untuk menjamin keamanan dan kenyamanan berkendara Anda.
             </p>
 
             {/* Daftar Keunggulan */}
