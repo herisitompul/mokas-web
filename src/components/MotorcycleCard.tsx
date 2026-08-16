@@ -52,7 +52,7 @@ export default function MotorcycleCard({ motor }: MotorcycleCardProps) {
     `Apakah unit ini masih tersedia?`
   );
 
-  const waLink = `https://wa.me/6281262374426?text=${waText}`;
+  const waLink = `https://wa.me/6281263374426?text=${waText}`;
 
   // Badge mapping
   const getBadge = () => {

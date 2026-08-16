@@ -38,7 +38,7 @@ export default function Hero() {
               🏍️ Lihat Katalog Motor
             </button>
             <a
-              href="https://wa.me/6281262374426?text=Halo%20Sitompul%20Motor%20Bekas%20Pahae,%20saya%20ingin%20tanya-tanya%20unit%20motor%20yang%20tersedia"
+              href="https://wa.me/6281263374426?text=Halo%20Sitompul%20Motor%20Bekas%20Pahae,%20saya%20ingin%20tanya-tanya%20unit%20motor%20yang%20tersedia"
               target="_blank"
               className="btn btn-secondary"
             >

@@ -21,15 +21,15 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className={styles.navMenu}>
-          <Link href="#catalog" className={styles.navLink}>Katalog</Link>
-          <Link href="#why-choose-us" className={styles.navLink}>Tentang Kami</Link>
-          <Link href="#testimonials" className={styles.navLink}>Testimoni</Link>
-          <Link href="#contact" className={styles.navLink}>Hubungi Kami</Link>
+          <Link href="/#catalog" className={styles.navLink}>Katalog</Link>
+          <Link href="/#why-choose-us" className={styles.navLink}>Tentang Kami</Link>
+          <Link href="/#testimonials" className={styles.navLink}>Testimoni</Link>
+          <Link href="/#contact" className={styles.navLink}>Hubungi Kami</Link>
         </div>
 
         {/* CTA Button */}
         <div className={styles.navActions}>
-          <Link href="https://wa.me/6281262374426?text=Halo%20Sitompul%20Motor%20Bekas%20Pahae,%20saya%20ingin%20menjual%20motor%20saya" target="_blank" className="btn btn-primary">
+          <Link href="https://wa.me/6281263374426?text=Halo%20Sitompul%20Motor%20Bekas%20Pahae,%20saya%20ingin%20menjual%20motor%20saya" target="_blank" className="btn btn-primary">
             Jual Motor
           </Link>
         </div>
@@ -43,12 +43,12 @@ export default function Navbar() {
 
         {/* Mobile Menu Panel */}
         <div className={`${styles.mobileMenu} ${isOpen ? styles.show : ''}`}>
-          <Link href="#catalog" className={styles.mobileNavLink} onClick={toggleMenu}>Katalog</Link>
-          <Link href="#why-choose-us" className={styles.mobileNavLink} onClick={toggleMenu}>Tentang Kami</Link>
-          <Link href="#testimonials" className={styles.mobileNavLink} onClick={toggleMenu}>Testimoni</Link>
-          <Link href="#contact" className={styles.mobileNavLink} onClick={toggleMenu}>Hubungi Kami</Link>
+          <Link href="/#catalog" className={styles.mobileNavLink} onClick={toggleMenu}>Katalog</Link>
+          <Link href="/#why-choose-us" className={styles.mobileNavLink} onClick={toggleMenu}>Tentang Kami</Link>
+          <Link href="/#testimonials" className={styles.mobileNavLink} onClick={toggleMenu}>Testimoni</Link>
+          <Link href="/#contact" className={styles.mobileNavLink} onClick={toggleMenu}>Hubungi Kami</Link>
           <div className={styles.mobileCta}>
-            <Link href="https://wa.me/6281262374426?text=Halo%20Sitompul%20Motor%20Bekas%20Pahae,%20saya%20ingin%20menjual%20motor%20saya" target="_blank" className="btn btn-primary" style={{ width: '100%' }}>
+            <Link href="https://wa.me/6281263374426?text=Halo%20Sitompul%20Motor%20Bekas%20Pahae,%20saya%20ingin%20menjual%20motor%20saya" target="_blank" className="btn btn-primary" style={{ width: '100%' }}>
               Jual Motor
             </Link>
           </div>

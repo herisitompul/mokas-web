@@ -22,10 +22,10 @@ export default function Footer() {
           <div className={styles.linksCol}>
             <h3 className={styles.title}>Menu Cepat</h3>
             <ul className={styles.linksList}>
-              <li><Link href="#catalog" className={styles.link}>Katalog Motor</Link></li>
-              <li><Link href="#why-choose-us" className={styles.link}>Tentang Kami</Link></li>
-              <li><Link href="#testimonials" className={styles.link}>Testimoni</Link></li>
-              <li><Link href="https://wa.me/6281262374426" target="_blank" className={styles.link}>Jual Motor Anda</Link></li>
+              <li><Link href="/#catalog" className={styles.link}>Katalog Motor</Link></li>
+              <li><Link href="/#why-choose-us" className={styles.link}>Tentang Kami</Link></li>
+              <li><Link href="/#testimonials" className={styles.link}>Testimoni</Link></li>
+              <li><Link href="https://wa.me/6281263374426" target="_blank" className={styles.link}>Jual Motor Anda</Link></li>
             </ul>
           </div>
 
@@ -46,7 +46,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className={styles.icon}>📞</span>
-                <span>+62 812-3456-7890</span>
+                <span>+62 812-6337-4426</span>
               </li>
               <li>
                 <span className={styles.icon}>🕒</span>
@@ -59,10 +59,10 @@ export default function Footer() {
           <div className={styles.socialCol}>
             <h3 className={styles.title}>Ikuti Kami</h3>
             <div className={styles.socialLinks}>
-              <Link href="#" className={styles.socialIcon} aria-label="Facebook">FB</Link>
-              <Link href="#" className={styles.socialIcon} aria-label="Instagram">IG</Link>
-              <Link href="#" className={styles.socialIcon} aria-label="YouTube">YT</Link>
-              <Link href="#" className={styles.socialIcon} aria-label="TikTok">TT</Link>
+              <Link href="https://web.facebook.com/usaha.bersama.724671" className={styles.socialIcon} aria-label="Facebook">FB</Link>
+              {/* <Link href="#" className={styles.socialIcon} aria-label="Instagram">IG</Link> */}
+              {/* <Link href="#" className={styles.socialIcon} aria-label="YouTube">YT</Link>
+              <Link href="#" className={styles.socialIcon} aria-label="TikTok">TT</Link> */}
             </div>
             <div className={styles.trustBadge}>
               <span className={styles.trustIcon}>🛡️</span>
