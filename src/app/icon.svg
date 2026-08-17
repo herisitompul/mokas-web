@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background gelap dengan border oranye sporty matching tema Sitompul Mokas -->
+  <rect width="100" height="100" rx="24" fill="#0f111a" stroke="#ff5722" stroke-width="6"/>
+  <!-- Emoji Motor di bagian tengah -->
+  <text y="72" x="15" font-size="60">🏍️</text>
+</svg>
