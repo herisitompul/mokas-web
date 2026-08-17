@@ -85,7 +85,7 @@ export default function Testimonials() {
       <div className="container">
         {/* Section Header */}
         <div className={styles.header}>
-          <span className="badge badge-secondary">Galeri Penjualan</span>
+          <span className="badge badge-secondary">Galeri Testimoni</span>
           <h2 className={styles.title}>Unit Mokas yang Telah Terjual</h2>
           <p className={styles.subtitle}>
             Bukti kepuasan pelanggan yang telah mempercayakan pembelian motor bekas berkualitas mereka di Sitompul Motor Bekas Pahae.
