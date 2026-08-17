@@ -10,7 +10,7 @@ export default function AboutUs() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
-  const images = ['/images/38.png', '/images/39.png', '/images/24.png'];
+  const images = ['/images/38.png', '/images/39.png', '/images/41.png'];
 
   // Auto-play interval: slides every 3.5 seconds, pauses when hovered
   useEffect(() => {
