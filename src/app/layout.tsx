@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/24.png",
+        url: "/images/41.png",
         width: 1200,
         height: 750,
         alt: "Showroom Sitompul Motor Bekas Pahae",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "SITOMPUL MOTOR BEKAS PAHAE",
     description: "Jual beli motor bekas berkualitas & bergaransi di Tapanuli Utara.",
-    images: ["/images/24.png"],
+    images: ["/images/41.png"],
   },
   robots: {
     index: true,
@@ -62,9 +62,48 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "SITOMPUL MOTOR BEKAS PAHAE",
+    "image": "https://sitompul-mokas.my.id/images/41.png",
+    "@id": "https://sitompul-mokas.my.id",
+    "url": "https://sitompul-mokas.my.id",
+    "telephone": "+6281263374426",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Usaha Bersama Sitompul - Onan Hasang",
+      "addressLocality": "Kec. Pahae Julu, Kab. Tapanuli Utara",
+      "addressRegion": "Sumatera Utara",
+      "postalCode": "22455",
+      "addressCountry": "ID"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "17:00"
+    },
+    "sameAs": [
+      "https://web.facebook.com/usaha.bersama.724671"
+    ]
+  };
+
   return (
     <html lang="id">
       <body className={poppins.variable}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
       </body>
     </html>
